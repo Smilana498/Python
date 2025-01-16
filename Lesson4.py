@@ -12,10 +12,14 @@
 # age = 20
 # print(type(age))
 
-Sales = str(input("Hello, its my flower shop, what do you need?"))
+hello = input("Hello, its my flower shop, welcome! We have Roses and Tulip.")
 Roses = float(100.05)
 Tulip = int(120)
-Sales2 = int(input("How much do you need?"))
-print(f"{Sales}\n  Roses costs: {Roses}\n"
+interes = input("What do you want?")
+print(f"{hello}\n" 
+      f"Our price: Roses costs: {Roses}\n"
       f"Tulip costs: {Tulip}\n"
-      f"{Sales2}\n")
+      f"{interes}\n")
+editional = str(input("Is it all?"))
+print(f"{editional}\n"
+      f"From you {Roses}\n")
